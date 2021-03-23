@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("ax^2+bx+c=0");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj bok a:");
+        System.out.println("Podaj a:");
         int a = scanner.nextInt();
-        System.out.println("Podaj bok b:");
+        System.out.println("Podaj b:");
         int b = scanner.nextInt();
-        System.out.println("Podaj bok c:");
+        System.out.println("Podaj c:");
         int c = scanner.nextInt();
         double x1, x2, delta;
 
